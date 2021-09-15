@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: loan-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/practicedb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root1223
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
+
+
